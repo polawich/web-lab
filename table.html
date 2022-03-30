@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        div{
+            border: 1px solid red;
+        }
+        span{
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Table</h1>
+    <table border="1" cellpadding="">
+        <thead bgcolor="yellow">
+            <th>ภาพสินค้า</th> <!-- หัวตาราง -->
+            <th>ชื่อสินค้า</th>
+            <th>ราคา</th>
+            <th>สั่งชื้อสินค้า</th>
+        </thead>
+        <tbody>
+            <tr align="center"> <!-- Row1 -->
+                <td> <!-- Colum-->
+                    <img src="https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_960_720.jpg" alt="ส้มตำ" width="150px" height="100px">
+                </td>
+                <td>
+                    <p>ส้มตำ</p>
+                </td>
+                <td>
+                    <p>30บาท</p>
+                </td>
+                <td>
+                    <a href="#">สั่งชื้อ</a>
+                </td>
+            </tr>
+            <tr align="center"> <!-- Row2 -->
+                <td> <!-- Colum-->
+                    <img src="https://cdn.pixabay.com/photo/2016/07/28/19/57/somtum-1549340_960_720.jpg" alt="ส้มตำปูปลาร้า" width="150px" height="100px">
+                </td>
+                <td>
+                    <p>ส้มตำปูปลาร้า</p>
+                </td>
+                <td>
+                    <p>35บาท</p>
+                </td>
+                <td>
+                    <a href="#">สั่งชื้อ</a>
+                </td>
+            </tr>
+            <tr>
+                <tr align="center"> <!-- Row3 -->
+                    <td> <!-- Colum-->
+                        <img src="https://cdn.pixabay.com/photo/2014/04/05/11/19/celebration-315079_960_720.jpg" alt="ไก่ย่าง" width="150px" height="100px">
+                    </td>
+                    <td>
+                        <p>ไก่ย่าง</p>
+                    </td>
+                    <td>
+                        <p>40บาท</p>
+                    </td>
+                    <td>
+                        <a href="#">สั่งชื้อ</a>
+                    </td>
+            </tr>
+            <tr>
+                <tr align="center"> <!-- Row4 -->
+                    <td> <!-- Colum-->
+                        <img src="https://cdn.pixabay.com/photo/2021/09/10/05/40/food-6612212_960_720.jpg" alt="ข้าวเหนียว" width="150px" height="100px">
+                    </td>
+                    <td>
+                        <p>ข้าวเหนียว</p>
+                    </td>
+                    <td>
+                        <p>10บาท</p>
+                    </td>
+                    <td>
+                        <a href="#">สั่งชื้อ</a>
+                    </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td bgcolor="green">
+                    <p>ราคารวม = 500</p>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="index.html">main</a>
+    <hr>
+    <span>polawich</span> <!-- ก้อน span มันจะไม่เว้นบรรทัดให้เเละกินพื้นที่ตามขนาด-->
+    <span>polawich</span>
+    <span>polawich</span>
+    <div>polawich</div> <!-- ก้อน div มันจะเว้นบรรทัดให้เเต่กินพื้นที่ทั้งหมด -->
+    <div>polawich</div>
+    <div>polawich</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Form ลงทะเบียน</h1>
+    <hr>
+        <form>
+            <div style="text-align: center;">
+                <label for="firstname">ชื่อจริง</label>
+                <input type="text" name="fname" placeholder="name"><br>
+                <label for="lastname">นามสกุล</label>
+                <input type="text" name="lname" placeholder="lastname"><br>
+                <label for="email">อีเมล</label>
+                <input type="email" name="email" placeholder="input email"><br>
+                <label for="password">รหัสผ่าน</label>
+                <input type="password" name="password" placeholder="password"><br>
+                <label for="place">ที่อยู่</label>
+                <textarea name="" id="" cols="20" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="edu">การศึกษา</label>
+                <select name="edu" id="">
+                    <option value="มัธยม" selected>มัธยม</option>
+                    <option value="มหาลัย">มหาลัย</option>
+                    <option value="โท" >โท</option>
+                </select>
+            </div>
+            <div style="text-align:right">
+                <button type="submit">บันทึกข้อมูล</button>
+                <button type="reset">ล้างข้อมูล</button>
+            </div>
+        </form>
+    <hr>
+    <a href="/index.html">main</a>
+</body>
+</html>
